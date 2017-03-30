@@ -41,7 +41,7 @@ Namespace Models
         <Required>
         <Column("wo_hours_worked")>
         <Range(1, 8)>
-        Public Property HoursWorked As Nullable(Of Int32)
+        Public Property HoursWorked As Nullable(Of Decimal)
 
         <Required>
         <Column("wo_rate")>

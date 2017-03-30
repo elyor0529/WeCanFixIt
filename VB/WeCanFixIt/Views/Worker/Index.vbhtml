@@ -12,6 +12,7 @@ End Section
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+
 <table class="table" id="datatable">
     <thead>
         <tr>
@@ -28,7 +29,7 @@ End Section
                 @Html.DisplayNameFor(Function(model) model.Rate)
             </th>
             <th></th>
-        </tr>/tr>
+        </tr>
     </thead>
 
     <tbody>
@@ -58,8 +59,7 @@ End Section
 
 </table>
 
-
-
+ 
 @Section Scripts
     <script src="/Plugins/DataTables/media/js/jquery.dataTables.min.js"></script>
     <script src="/Plugins/DataTables/media/js/dataTables.bootstrap.min.js"></script>

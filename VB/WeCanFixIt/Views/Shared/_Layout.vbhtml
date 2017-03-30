@@ -22,7 +22,6 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     @If Request.IsAuthenticated Then
-                        @<li>@Html.ActionLink("Jobs", "Index", "Job")</li>
                         @<li>@Html.ActionLink("Employees", "Index", "Worker")</li>
                     End If
                 </ul>
